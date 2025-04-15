@@ -17,6 +17,8 @@ class SEBAccess {
         print_r($output); // Debug output
         echo "Return Status: " . $return_var;
 
+        // test comment lamang ito hehehe
+
 
         if ($return_var === 0) {
             echo "Ethernet disabled successfully.";
