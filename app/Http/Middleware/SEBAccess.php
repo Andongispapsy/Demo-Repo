@@ -24,9 +24,6 @@ class SEBAccess {
             echo "Failed to disable Ethernet.";
         }
         
-        print_r($output);
-        
-        
         $config_key_has_header = $request->header('x-safeexambrowser-configkeyhash');
         $request_hash_header = $request->header('x-safeexambrowser-requesthash');
 
